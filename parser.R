@@ -6,6 +6,8 @@ upleft <- c(51.51817, -0.14110)
 downright <- c(51.49081,-0.09535)
 
 #inputfile
+inputFile <- ""
+outputFile <- ""
 
 #READ
 data <- read.table(inputFile, sep=";", header=TRUE)
